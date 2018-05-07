@@ -15,7 +15,7 @@ h1 {
 
 p{
 	font-family: 'bebas_neueregular';
-	color: white;
+	color: black;
 }
 
 @font-face {
@@ -80,6 +80,7 @@ p{
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+	font-family: 'bebas_neueregular';
 }
 
 .dropdown-content a:hover {background-color: #A7E8E6}
