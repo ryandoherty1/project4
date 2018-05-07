@@ -1,6 +1,7 @@
 /* body */ 
 body {
 	background: url("images/zombie.jpg");
+	background-size: 100%;
 }
 
 
