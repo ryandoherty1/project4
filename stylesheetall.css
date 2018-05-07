@@ -1,0 +1,93 @@
+/* body */ 
+body {
+	background: url("images/zombie.jpg");
+}
+
+
+/* text adjustment */
+h1 {
+	font-size: 65px;
+	background: -webkit-radial-gradient(#AD0000	, #262626	);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-family: 'bebas_neueregular';
+}
+
+p{
+	font-family: 'bebas_neueregular';
+	color: white;
+}
+
+@font-face {
+    font-family: "bebas_neueregular";
+    src: url("fonts/bebasneue-regular-webfont.woff2") format('woff2'),
+         url("fonts/bebasneue-regular-webfont.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* grid content */
+.g003 {
+  display: grid;
+  grid-template-columns: 50px 700px;
+  grid-column-gap: 50px;
+}
+.g004{
+  font-size: 30px;
+}
+
+.g001 {
+	display: grid;
+	grid-template-columns: 512px 512px;
+}
+ .g002 {
+  text-align: center;
+  margin-left: 125 px;
+ }
+ 
+ /* img alignment */
+ .g005 {
+	width: 25px;
+	height: 25px;
+ }
+ 
+ /* Menubar */
+ .dropbtn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+	color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #A7E8E6}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: black;
+}
