@@ -14,10 +14,19 @@ h1 {
 	font-family: 'bebas_neueregular';
 }
 
-p{
+h6 {
 	font-family: 'bebas_neueregular';
+	color: black;
+	font-size: 12px;
+}
+
+p{
 	color: white;
 	font-size: 36px;
+}
+
+b {
+	color: red;
 }
 
 @font-face {
@@ -26,7 +35,6 @@ p{
          url("fonts/bebasneue-regular-webfont.woff") format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 /* grid content */
@@ -57,8 +65,16 @@ p{
 	 
  }
  .item {
-	 
+	text-align: center;
  }
+ 
+.g006 {
+	display: grid;
+	grid-template-columns: repeat(5 ;100px)
+}
+.g007 {
+	background-color: white;
+}
  
  /* img alignment */
  .g005 {
