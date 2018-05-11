@@ -16,7 +16,8 @@ h1 {
 
 p{
 	font-family: 'bebas_neueregular';
-	color: black;
+	color: white;
+	font-size: 36px;
 }
 
 @font-face {
@@ -45,6 +46,18 @@ p{
  .g002 {
   text-align: center;
   margin-left: 125 px;
+ }
+ 
+ .flexbox {
+	 display: flex;
+	 justify-content: center;
+ }
+ .container {
+	 flex-wrap: wrap;
+	 
+ }
+ .item {
+	 
  }
  
  /* img alignment */
