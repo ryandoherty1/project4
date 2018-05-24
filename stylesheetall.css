@@ -15,9 +15,9 @@ h1 {
 }
 
 h6 {
-	font-family: 'bebas_neueregular';
+	font-family: 'Georgia';
 	color: black;
-	font-size: 12px;
+	font-size: 18px;
 }
 
 p{
@@ -27,6 +27,7 @@ p{
 
 b {
 	color: red;
+	font-size: 40px;
 }
 
 @font-face {
@@ -37,16 +38,8 @@ b {
     font-style: normal;
 }
 
-/* grid content */
-.g003 {
-  display: grid;
-  grid-template-columns: 50px 700px;
-  grid-column-gap: 50px;
-}
-.g004{
-  font-size: 30px;
-}
 
+/* grid content */
 .g001 {
 	display: grid;
 	grid-template-columns: 512px 512px;
@@ -56,28 +49,37 @@ b {
   margin-left: 125 px;
  }
  
- .flexbox {
-	 display: flex;
-	 justify-content: center;
- }
- .container {
-	 flex-wrap: wrap;
-	 
- }
- .item {
-	text-align: center;
- }
- 
+ .g003 {
+  display: grid;
+  grid-template-columns: 50px 700px;
+  grid-column-gap: 50px;
+}
+.g004{
+  font-size: 30px;
+}
+
 .g006 {
 	display: grid;
-	grid-template-columns: repeat(5 ;100px)
+	grid-template-columns: repeat(5 ,100px);
 }
 .g007 {
 	background-color: white;
 }
+
+.g008 {
+	display: grid;
+	grid-template-columns: repeat(3, 200px);
+	justify-content: center;
+	grid-gap: 100px;
+}
+.g009 {
+}
+
+
+ /* Grid Background Info */
  
  /* img alignment */
- .g005 {
+ .i001 {
 	width: 25px;
 	height: 25px;
  }
@@ -87,7 +89,7 @@ b {
     background-color: black;
     color: white;
     padding: 16px;
-    font-size: 16px;
+  
     border: none;
 }
 
@@ -103,6 +105,7 @@ b {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+
 }
 
 .dropdown-content a {
@@ -111,6 +114,7 @@ b {
     text-decoration: none;
     display: block;
 	font-family: 'bebas_neueregular';
+	font-size: 20px;
 }
 
 .dropdown-content a:hover {background-color: #A7E8E6}
@@ -121,4 +125,17 @@ b {
 
 .dropdown:hover .dropbtn {
     background-color: black;
+}
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
 }
