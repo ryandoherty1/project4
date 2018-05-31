@@ -4,6 +4,10 @@ body {
 	background-size: 100%;
 }
 
+/* Cursor */
+* {
+	cursor: url("cursors/zombie.cur");
+}
 
 /* text adjustment */
 h1 {
@@ -28,6 +32,18 @@ p{
 b {
 	color: red;
 	font-size: 40px;
+}
+
+li { 
+	color: white;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-family: 'Georgia';
+	color: white;
+	font-size: 32px;
 }
 
 @font-face {
@@ -68,15 +84,69 @@ b {
 
 .g008 {
 	display: grid;
-	grid-template-columns: repeat(3, 200px);
+	grid-template-columns: repeat(3, 400px);
 	justify-content: center;
 	grid-gap: 100px;
 }
 .g009 {
+	text-align: center;
 }
 
+.g010 {
+	display: grid;
+	grid-template-columns: 1000px;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+.g011 {
+	text-align: center;
+}
 
- /* Grid Background Info */
+.g012 {
+	display: grid;
+	grid-template-columns: 1000px;
+	justify-content: center;
+	grid-gap: 100px;
+}
+.g013 {
+	text-align: center;
+}
+
+.g014 {
+	display: grid;
+	grid-template-columns: 400px 1000px;
+	grid-gap: 100px;
+	justify-content: center;
+}
+.g015 {
+	text-align: center;
+}
+
+.g016 {
+	display: grid;
+	grid-template-columns: repeat(4 ,400px);
+	justify-content: center;
+}
+.g017 {
+	text-align: center;
+}
+
+/* Flexbox */
+.f001 {
+	display: flex;
+	justify-content: center;
+}
+.f002 {
+	text-align: center;
+}
+.f003 {
+	text-align: center;
+}
+
+/*text */
+.t001 {
+	text-align: center;
+}
  
  /* img alignment */
  .i001 {
