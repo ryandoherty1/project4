@@ -84,9 +84,9 @@ h2 {
 
 .g008 {
 	display: grid;
-	grid-template-columns: repeat(3, 400px);
+	grid-template-columns: repeat(3, 250px);
 	justify-content: center;
-	grid-gap: 100px;
+	grid-gap: 50px;
 }
 .g009 {
 	text-align: center;
