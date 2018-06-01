@@ -86,7 +86,7 @@ h2 {
 	display: grid;
 	grid-template-columns: repeat(3, 250px);
 	justify-content: center;
-	grid-gap: 50px;
+	grid-gap: 25px;
 }
 .g009 {
 	text-align: center;
