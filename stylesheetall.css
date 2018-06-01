@@ -1,7 +1,7 @@
 /* body */ 
 body {
-	background: url("images/zombie.jpg");
-	background-size: 100%;
+  background-color: black;
+  background-size: 100%;
 }
 
 /* Cursor */
@@ -114,7 +114,7 @@ h2 {
 
 .g014 {
 	display: grid;
-	grid-template-columns: 400px 1000px;
+	grid-template-columns: 400px 400px;
 	grid-gap: 100px;
 	justify-content: center;
 }
